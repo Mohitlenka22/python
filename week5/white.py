@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 
 arr = np.zeros([500, 500, 3], dtype=np.uint8)
-# arr[:, :] = [128, 128, 128]
+arr[:, :] = [255, 0, 0]
 arr[:, :] = [100, 50, 0]
 
 cv2.imshow('img', arr)
