@@ -9,5 +9,6 @@ print(df.loc[0:1])
 
 #row addition
 df2 = pd.DataFrame(np.array([['Guna Sekhar' ,100]]), columns = ['Name', 'Marks'])
-print(pd.concatenate(df, df2))
+print(pd.concat([df, df2], ignore_index=True))
+# print(pd.concatenate([df, df2], reset = True))
 
