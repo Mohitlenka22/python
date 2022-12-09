@@ -1,3 +1,5 @@
 # python
-'''
-Syllabus of Advanced Python programming(GVPCE(A))
+
+Weekly Programs of Advanced Python programming Lab
+ 
+~GVPCE(A).
